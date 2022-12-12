@@ -17,7 +17,7 @@ items:
         app.openshift.io/runtime: nodejs
       annotations:
         nodeshift/git-branch: main
-        nodeshift/git-commit: f0aa8718ba60ca2ebffb07f92ea36abf398a4142
+        nodeshift/git-commit: 33697052fb8ce1f05a8a4193aab01d7ed664351b
     spec:
       replicas: 1
       revisionHistoryLimit: 2
@@ -45,7 +45,7 @@ items:
             app: pokeapi
           annotations:
             nodeshift/git-branch: main
-            nodeshift/git-commit: f0aa8718ba60ca2ebffb07f92ea36abf398a4142
+            nodeshift/git-commit: 33697052fb8ce1f05a8a4193aab01d7ed664351b
         spec:
           containers:
             - image: pokeapi
@@ -82,4 +82,4 @@ items:
         app.openshift.io/runtime: nodejs
       annotations:
         nodeshift/git-branch: main
-        nodeshift/git-commit: f0aa8718ba60ca2ebffb07f92ea36abf398a4142
+        nodeshift/git-commit: 33697052fb8ce1f05a8a4193aab01d7ed664351b
