@@ -6,9 +6,9 @@ export const databaseProviders = [
     useFactory: async () => {
       const dataSource = new DataSource({
         type: 'postgres',
-        host: 'postgresql-kevinosorio-code-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com',
+        host: '127.0.0.1',
         port: 5000,
-        username: 'kevin',
+        username: 'admin',
         password: 'U4ut0n0m4',
         database: 'pokedex',
         entities: [__dirname + '/../**/*.entity{.ts,.js}'],
